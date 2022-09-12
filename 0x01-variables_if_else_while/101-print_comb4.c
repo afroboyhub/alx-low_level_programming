@@ -28,7 +28,7 @@ int main(void)
 					putchar(d2 + 48);
 					putchar(d3 + 48);
 					
-					if (d1 + d2 + d3 != 24);
+					if (d1 + d2 + d3 != 24)
 						{
 						putchar(',');
 						putchar(' ');
