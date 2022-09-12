@@ -29,10 +29,10 @@ int main(void)
 					putchar(d3 + 48);
 					
 					if (d1 + d2 + d3 != 24);
-					{
+						{
 						putchar(',');
 						putchar(' ');
-					}
+						}
 				}
 				++d3;
 			}
