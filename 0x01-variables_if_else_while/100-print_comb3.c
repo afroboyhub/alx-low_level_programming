@@ -10,21 +10,28 @@
 
 int main(void)
 {
-	int num, sec;
+	int d1 = 0;
+	int d2;
 
-	for (num = 0; num < 10; num++)
+	while (d1 <= 9)
 	{
-		for (sec = 0; sec < 10; sec++)
+		d2 = 0;
+		while (d2 <= 9)
 		{
-			putchar((num % 10) + '0');
-			putchar((sec % 10) + '0');
+			if (d1 != d2 && d1 < d2)
+			{
+				putchar(d1 + 48);
+				putchar(d2 + 48);
 
-			if (num == 9 && sec == 9)
-				continue;
-
-			putchar(',');
-			putchar(' ');
+				if (d1 + d2 != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			++d2;
 		}
+		++d1;
 	}
 	putchar('\n');
 	return (0);
