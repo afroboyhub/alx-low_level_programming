@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
- * main - prints alphabet in lowercase
- * _putchar - prints alphabet in l_c
- * Return: 0
+ * print_alphabet -> prints alphabet in lowercase
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	int i = 0;
 
@@ -15,5 +14,4 @@ int main(void)
 		putchar(i);
 
 	putchar('\n');
-	return (0);
 }
