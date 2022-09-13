@@ -10,10 +10,10 @@ void jack_bauer(void)
 	int n1 = 0;
 	int n2;
 
-	while (n1 < 24)
+	while (n1 <= 23)
 	{
 		n2 = n1;
-		while (n2 < 60)
+		while (n2 <= 59)
 		{
 			if (n2 != n1)
 			{
