@@ -15,17 +15,14 @@ void jack_bauer(void)
 		n2 = 0;
 		while (n2 <= 59)
 		{
-			if (n2 != n1)
-			{
-				_putchar((n1 / 10) + '0');
-				_putchar((n1 % 10) + '0');
-				_putchar(':');
-				_putchar((n2 / 10) + '0');
-				_putchar((n2 % 10) + '0');
-				_putchar('\n');
-			}
-			++n2;
+			_putchar((n1 / 10) + '0');
+			_putchar((n1 % 10) + '0');
+			_putchar(':');
+			_putchar((n2 / 10) + '0');
+			_putchar((n2 % 10) + '0');
+			_putchar('\n');
 		}
-		++n1;
+		++n2;
 	}
+	++n1;
 }
