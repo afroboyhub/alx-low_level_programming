@@ -17,11 +17,11 @@ void jack_bauer(void)
 		{
 			if (n2 != n1)
 			{
-				_putchar((n1 / 10) + 48);
-				_putchar((n1 % 10) + 48);
+				_putchar((n1 / 10) + '0');
+				_putchar((n1 % 10) + '0');
 				_putchar(':');
-				_putchar((n2 / 10) + 48);
-				_putchar((n2 % 10) + 48);
+				_putchar((n2 / 10) + '0');
+				_putchar((n2 % 10) + '0');
 				_putchar('\n');
 			}
 			++n2;
