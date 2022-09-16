@@ -17,6 +17,10 @@ void print_diagonal(int n)
 			for (spc = 0; spc < hsh; spc++)
 				_putchar(' ');
 			_putchar('\\');
+
+			if (hsh == n - 1)
+				continue;
+			_putchar('\n');
 		}
 	}
 	_putchar('\n');
