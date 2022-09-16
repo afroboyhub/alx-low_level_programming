@@ -8,12 +8,16 @@
 
 void print_diagonal(int n)
 {
-	int hsh;
+	int hsh, spc;
 
 	if (n > 0)
 	{
 		for (hsh = 0; hsh < n; hsh++)
+		{
+			for (spc = 0; spc < hsh; spc++)
+				_putchar(' ');
 			_putchar('\\');
+		}
 	}
 	_putchar('\n');
 }
