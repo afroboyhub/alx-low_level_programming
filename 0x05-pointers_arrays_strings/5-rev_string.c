@@ -2,7 +2,7 @@
 
 /**
  * rev_string - reverse a string
- * @*s: parameter
+ * @s: parameter
  */
 
 void rev_string(char *s)
@@ -13,7 +13,7 @@ void rev_string(char *s)
 	while (*(s + end) != '\0')
 		end++;
 
-	end = end -1;
+	end = end - 1;
 	start = 0;
 	while (end > start)
 		tmp = s[start];
