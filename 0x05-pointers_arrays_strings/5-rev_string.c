@@ -3,7 +3,7 @@
 
 /**
  * rev_string - reverse a string
- * @s: parameter
+ * @s: string to be reversed
  */
 
 void rev_string(char *s)
@@ -16,4 +16,13 @@ void rev_string(char *s)
 		*(s + i) = *(s + len - i - 1);
 		*(s + len - i - 1) = tmp;
 	}
+}
+
+int _strlen(char *s)
+{
+	int len = 0;
+
+	while (*(s + len) != '\0')
+		len++;
+	return (len);
 }
