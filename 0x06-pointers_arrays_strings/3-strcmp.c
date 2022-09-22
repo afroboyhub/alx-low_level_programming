@@ -21,7 +21,7 @@ int _strcmp(char *s1, char *s2)
 		}
 
 		ot = *(s1 + i) - *(s2 + i);
-		i++
+		i++;
 	}
 
 	return (ot);
