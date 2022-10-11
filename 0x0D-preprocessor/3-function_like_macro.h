@@ -4,6 +4,7 @@
 /**
  * File - function like macro
  * description: computes the absolute value of a number x
+ * @x: number
  */
 
 #define ABS(x) ((x) < 0 ? (-x) : (x))

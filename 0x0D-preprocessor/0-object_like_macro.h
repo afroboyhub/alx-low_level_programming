@@ -3,7 +3,7 @@
 
 /**
  * file - object like marco
- * decription - defines a macro named SIZE as an abbreviation for the token 1024
+ * decription - defines a macro named SIZE as the token 1024
  */
 
 #define SIZE 1024
