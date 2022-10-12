@@ -9,10 +9,10 @@
  * Return: 0
  */
 
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
 	int bytes, i;
-	int (*address)(int, char **) = main;
+	int (*address)(int, char **);
 	unsigned char opcode;
 
 	if (argc != 2)
@@ -41,6 +41,6 @@ int main(int argc, int *argv[])
 		address++;
 	}
 
-	printef("\n");
+	printf("\n");
 	return (0);
 }
